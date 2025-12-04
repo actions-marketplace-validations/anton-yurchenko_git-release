@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 20
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         
       - name: Install dependencies
         run: go get -v -t -d ./...
